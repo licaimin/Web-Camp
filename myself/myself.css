@@ -1,0 +1,116 @@
+
+.main{
+	padding-right: 0px;
+	padding-bottom: 0.5rem;
+	padding-left: 0px;
+}
+.main{
+	background-color:#e5e5e5;
+	background-attachment: fixed;
+
+}
+body{
+	font-family: sans-serif;
+	font-size:14px;
+	color: #a71a1a;
+}
+.wrapper{
+	margin: 0 auto;
+	width:90%;
+	display: flex;/*这是什么意思*/
+	min-width:720px;
+	max-width: 1300px;
+}
+.content{
+	width: 100%;
+	float: right;
+}
+.content{
+	margin-right:20px;
+}
+.module{
+	background-color: #FFF;
+	width:100%;
+	margin-bottom: 0;
+}
+.tabs-sub{
+	border-bottom: 1px solid #eee;
+}
+.tabs-sub{
+	display: flex;
+	font-size: 16px;
+	background-color:#fff;
+}
+.tabs-sub p{
+	flex:1;
+	line-height: 48px;
+	text-decoration: none;
+	text-align: center;
+}
+.list>ul{
+	list-style: none;
+	padding: 15px 15px 0;
+}
+ul,ol{
+	margin: 0;
+}
+.list>ul>li{
+	border-bottom:1px solid #eee;
+	padding:15px;
+	position:relative;/*这个作用不太懂*/
+}
+.has-view{
+	margin-right:40px;
+}
+.wrapper .side{
+	margin-top:0rem;
+}
+.side{
+	width:45%;
+}
+.side{
+	position: relative;
+}
+.ft-center{
+	text-align: center;
+}
+#avatarURLDom{
+	margin-top:30px;
+}
+.avatar-big{
+	height:140px;
+	width:140px;
+}
+.avatar-big{
+	border: 1px solid #e7ead5;
+}
+.avatar-big{
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	display: inline-block;
+    vertical-align: middle;          /*这部分都不太懂*/
+}
+.user-name{
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 26px;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 20px;
+	padding: 20px 10px 25px 10px;
+
+}
+.user-details{
+	margin:0 10px;
+}
+.user-intro{
+	margin-bottom: 5px;
+}
+.user-info{
+	line-height: 24px;
+	font-size:12px;
+	color:#666666;
+}
+.ft-gray{
+	color:#999;
+}
